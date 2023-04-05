@@ -1,9 +1,10 @@
 -- Descomente e altere as linhas abaixo:
 
 CREATE TABLE SpotifyClone.cancao_favorita(
-	  usuario_id INT,
-    cancao_id INT,
+	  usuario_id INT NOT NULL,
+    cancao_id INT NOT NULL,
     
+    PRIMARY KEY (usuario_id, cancao_id),
     FOREIGN KEY (usuario_id) REFERENCES usuario (usuario_id),
     FOREIGN KEY (cancao_id) REFERENCES cancoes (cancao_id)
 );
