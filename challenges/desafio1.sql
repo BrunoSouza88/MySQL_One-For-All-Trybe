@@ -85,13 +85,13 @@ VALUES
 ('BREAK MY SOUL', 279, 1),
 ("VIRGO'S GROOVE", 369, 1),
 ('ALIEN SUPERSTAR', 116, 1),
-("DON'T STOP ME NOW", 203, 2),
-('UNDER PRESSURE', 152, 3),
-('COMO NOSSOS PAIS', 105, 4),
-('O MEDO DE AMAR É O MEDO DE SER LIVRE', 207, 5),
-('SAMBA EM PARIS', 267, 6),
-("THE BARD'S SONG", 244, 7),
-('FEELING GOOD', 100, 8);
+("Don't Stop Me Now", 203, 2),
+('Under Pressure', 152, 3),
+('Como Nossos Pais', 105, 4),
+('O Medo de Amar é o Medo de Ser Livre', 207, 5),
+('Samba em Paris', 267, 6),
+("The Bard's Song", 244, 7),
+('Feeling Good', 100, 8);
 
 CREATE TABLE usuario_artista (
   usuario_id INT,
